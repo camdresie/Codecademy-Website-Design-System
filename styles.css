@@ -28,7 +28,7 @@ nav li {
     width: 0, auto;
 }
 
-.colors {
+#colors {
     display: inline-block;
     border: white 1px solid;
     padding: 20px;
@@ -36,9 +36,10 @@ nav li {
     margin: 0 auto;
 }
 
-#colorsheading {
+.colorsheading {
     font-size: 50px;
     margin: 0;
+    color: hsla(180, 100%, 65%, 1);
 }
 
 .light-grey {
@@ -102,6 +103,30 @@ nav li {
     width: 33%;
 }
 
-#color-margin-padding {
-  padding: 30px 20px;
+#fonts {
+    display: inline-block;
+    border: white 1px solid;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fontsheading {
+    font-size: 50px;
+    margin: 0;
+    color: hsla(180, 100%, 65%, 1);
+}
+
+#text-styles {
+    display: inline-block;
+    border: white 1px solid;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-stylesheading {
+    font-size: 50px;
+    margin: 0;
+    color: hsla(180, 100%, 65%, 1);
 }
