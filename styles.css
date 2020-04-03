@@ -117,6 +117,34 @@ nav li {
     color: hsla(180, 100%, 65%, 1);
 }
 
+.Montserrat {
+    display: inline-block;
+    color: hsla(180, 100%, 65%, 1);
+    width: 49%;
+    font-family: "Montserrat";
+}
+
+.Ubuntu {
+    display: inline-block;
+    color: hsla(180, 100%, 65%, 1);
+    width: 49%;
+    font-family: "Ubuntu";
+}
+
+.Inconsolata {
+    display: inline-block;
+    color: hsla(180, 100%, 65%, 1);
+    width: 49%;
+    font-family: "Inconsolata";
+}
+
+.Roboto {
+    display: inline-block;
+    color: hsla(180, 100%, 65%, 1);
+    width: 49%;
+    font-family: Roboto;
+}
+
 #text-styles {
     display: inline-block;
     border: white 1px solid;
