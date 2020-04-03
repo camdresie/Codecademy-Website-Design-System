@@ -1,0 +1,21 @@
+header {
+    font-family: "Montserrat", sans-serif;
+    background-color: hsla(0, 0%, 0%, 1);
+}
+
+header h1 {
+    color: hsla(180, 100%, 65%, 1);
+    position: relative;
+    top: 65px;
+    background-color: hsla(0, 0%, 0%, 1);
+}
+
+nav {
+    color: hsla(180, 100%, 65%, 1);
+    display: inline-block;
+    width: 100%;
+    background-color: hsla(225, 0%, 50%, 1);
+    position: fixed;
+    top: 0;
+}
+
