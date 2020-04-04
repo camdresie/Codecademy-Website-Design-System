@@ -40,6 +40,7 @@ nav li {
     font-size: 50px;
     margin: 0;
     color: hsla(180, 100%, 65%, 1);
+    font-family: "Inconsolata";
 }
 
 .light-grey {
@@ -115,6 +116,30 @@ nav li {
     font-size: 50px;
     margin: 0;
     color: hsla(180, 100%, 65%, 1);
+    font-family: "Inconsolata";
+}
+
+.fonttitles {
+    color: hsla(180, 100%, 65%, 1);
+    font-size: 40px;
+}
+
+.fontregular {
+    font-weight: 400;
+    color: hsla(225, 0%, 50%, 1);
+    font-size: 20px;
+}
+
+.fontbold {
+    font-weight: 700;
+    color: hsla(225, 0%, 50%, 1);
+    font-size: 20px;
+}
+
+.fontitalic {
+    font-style: italic;
+    color: hsla(225, 0%, 50%, 1);
+    font-size: 20px;
 }
 
 .Montserrat {
@@ -157,4 +182,55 @@ nav li {
     font-size: 50px;
     margin: 0;
     color: hsla(180, 100%, 65%, 1);
+    font-family: "Inconsolata";
+}
+
+.headings {
+    color: hsla(180, 100%, 65%, 1);
+    font-size: 75px;
+    font-weight: 700;
+    font-family: "Ubuntu";
+}
+
+.headingsul {
+    font-size: 30px;
+    font-family: "Inconsolata";
+}
+
+.headingsul li {
+    color: hsla(225, 0%, 50%, 1);
+}
+
+.subheadings {
+    color: hsla(180, 100%, 65%, 1);
+    font-size: 50px;
+    font-family: "Inconsolata";
+}
+
+.subheadingsul {
+    font-size: 30px;
+    font-family: "Incosolata";
+}
+
+.subheadingsul li {
+    color: hsla(225, 0%, 50%, 1);
+}
+
+.paragraphs {
+    color: hsla(180, 100%, 65%, 1);
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.paragraphsul {
+    font-size: 30px;
+    font-family: "Incosolata";
+}
+
+.paragraphsul li {
+    color: hsla(225, 0%, 50%, 1);
+}
+
+footer {
+    text-align: center;
 }
