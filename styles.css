@@ -1,31 +1,40 @@
 * {
  box-sizing: border-box;
- color: white;
- background-color: hsla(0, 0%, 0%, 1);
+ background-color: black;
 }
 
-header {
+nav {
+
 }
 
+nav ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    border-right: 1px solid white;
+}
+
+nav ul li {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center
+    border-right: 1px solid white;
+}
 header h1 {
-    color: hsla(180, 100%, 65%, 1);
+    color: white;
     background-image: url(https://aircomfortcomplete.com/wp-content/uploads/2015/06/wallpapers-for-gt-navy-blue-wallpaper-hd-dark-blue-and-white-wallpaper-wallpapers-hd-android-for-mobile-free-download-1920x1080-background-iphone-5-desktop.jpg);
     font-family: "Montserrat", sans-serif;
     font-size: 75px;
     width: 100%;
     text-align: center;
     padding: 100px 0;
-}
-
-nav {
-    color: hsla(180, 100%, 65%, 1);
-}
-
-nav li {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 20px;
-    width: 0, auto;
 }
 
 #colors {
@@ -45,10 +54,9 @@ nav li {
 
 .light-grey {
     background-color: hsla(225, 0%, 50%, 1);
-    position: relative;
     border: solid 1px white;
     display: inline-block;
-    color: hsla(180, 100%, 65%, 1);
+    color:white;
     padding: 30px 20px;
     text-align: center;
     width: 33%;
@@ -58,7 +66,7 @@ nav li {
     background-color: hsla(225, 0%, 20%, 1);
     border: solid 1px white;
     display: inline-block;
-    color: hsla(180, 100%, 65%, 1);
+    color: white;
     padding: 30px 20px;
     text-align: center;
     width: 33%;
@@ -68,7 +76,7 @@ nav li {
     background-color: hsla(0, 0%, 0%, 1);
     border: solid 1px white;
     display: inline-block;
-    color: hsla(180, 100%, 65%, 1);
+    color: white;
     padding: 30px 20px;
     text-align: center;
     width: 33%;
@@ -78,7 +86,7 @@ nav li {
     background-color: hsla(115, 100%, 15%, 1);
     border: solid 1px white;
     display: inline-block;
-    color: hsla(180, 100%, 65%, 1);
+    color: white;
     padding: 30px 20px;
     text-align: center;
     width: 33%;
@@ -88,7 +96,7 @@ nav li {
     background-color: hsla(235, 62%, 39%, 1);
     border: solid 1px white;
     display: inline-block;
-    color: hsla(180, 100%, 65%, 1);
+    color: white;
     padding: 30px 20px;
     text-align: center;
     width: 33%;
@@ -98,7 +106,7 @@ nav li {
     background-color: hsla(180, 100%, 65%, 1);
     border: solid 1px white;
     display: inline-block;
-    color: hsla(0, 0%, 0%, 1);
+    color: black;
     padding: 30px 20px;
     text-align: center;
     width: 33%;
@@ -233,4 +241,5 @@ nav li {
 
 footer {
     text-align: center;
+    color: hsla(225, 0%, 20%, 1);
 }
