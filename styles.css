@@ -3,10 +3,6 @@
  background-color: black;
 }
 
-nav {
-
-}
-
 nav ul {
     position: fixed;
     width: 100%;
@@ -30,6 +26,9 @@ nav ul li {
 header h1 {
     color: white;
     background-image: url(https://aircomfortcomplete.com/wp-content/uploads/2015/06/wallpapers-for-gt-navy-blue-wallpaper-hd-dark-blue-and-white-wallpaper-wallpapers-hd-android-for-mobile-free-download-1920x1080-background-iphone-5-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: "Montserrat", sans-serif;
     font-size: 75px;
     width: 100%;
